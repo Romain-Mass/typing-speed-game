@@ -1,0 +1,29 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_211_1630)">
+<g clip-path="url(#clip0_211_1630)">
+<path d="M32 64C32 46.3269 46.3269 32 64 32C81.6731 32 96 46.3269 96 64C96 81.6731 81.6731 96 64 96C46.3269 96 32 81.6731 32 64Z" fill="#121212"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M77.4501 58.0109L61.8947 73.5663C61.3996 74.0615 60.7562 74.3074 60.1095 74.3074C59.4594 74.3074 58.816 74.0615 58.3208 73.5663L50.5432 65.7886C49.5562 64.8017 49.5562 63.2017 50.5432 62.2147C51.5301 61.2278 53.1267 61.2278 54.1137 62.2147L60.1095 68.2072L73.8762 54.4371C74.8632 53.4501 76.4632 53.4501 77.4501 54.4371C78.4371 55.424 78.4371 57.024 77.4501 58.0109ZM64 32C46.3562 32 32 46.3562 32 64C32 81.6472 46.3562 96 64 96C81.6438 96 96 81.6472 96 64C96 46.3562 81.6438 32 64 32Z" fill="#4DD67B"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_211_1630" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="32" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_211_1630"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.301961 0 0 0 0 0.839216 0 0 0 0 0.482353 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_211_1630"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="16" operator="dilate" in="SourceAlpha" result="effect2_dropShadow_211_1630"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.301961 0 0 0 0 0.839216 0 0 0 0 0.482353 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_211_1630" result="effect2_dropShadow_211_1630"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_211_1630" result="shape"/>
+</filter>
+<clipPath id="clip0_211_1630">
+<path d="M32 64C32 46.3269 46.3269 32 64 32C81.6731 32 96 46.3269 96 64C96 81.6731 81.6731 96 64 96C46.3269 96 32 81.6731 32 64Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

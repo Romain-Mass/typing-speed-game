@@ -62,39 +62,73 @@
 				</svg>
 				<h3>
 					Personal best:
-					<span>0</span>
+					<span id="record">0</span>
 					WPM
 				</h3>
 			</div>
 		</header>
 		<main>
-			<div class="spend">
-				<h3>WPM: <span id="wpm">0</span></h3>
-				<img src="assets/Divider.png" alt="" />
-				<h3>Accuracy: <span id="taux">0</span> %</h3>
-				<img src="assets/Divider.png" alt="" />
-				<h3>Time: <span id="timer">00</span></h3>
-			</div>
-			<div class="typing-zone">
-				<div class="background-text" id="backgroundText"></div>
-
-				<div id="start" class="overlay-start">
-					<button type="button" id="btnStart">Start Typing Test</button>
-					<p class="start">Or click the text and start typing</p>
+			<section class="typing">
+				<div id="stats">
+					<div class="spend">
+						<h3>WPM: <span id="wpm">0</span></h3>
+						<img src="assets/Divider.png" alt="" />
+						<h3>Accuracy: <span id="taux">0</span> %</h3>
+						<img src="assets/Divider.png" alt="" />
+						<h3>Time: <span id="timer">60</span></h3>
+					</div>
+					<div class="difficulty">
+						<h3>Difficulty:</h3>
+						<button class="btn color1" id="easy">Easy</button>
+						<button class="btn color1" id="medium">Medium</button>
+						<button class="btn color2" id="hard">Hard</button>
+					</div>
 				</div>
+				<div class="typing-zone">
+					<div class="background-text" id="backgroundText"></div>
 
-				<textarea
-					id="quoteInput"
-					class="hidden-input"
-					spellcheck="false"
-				></textarea>
-			</div>
+					<div id="start" class="overlay-start">
+						<button type="button" id="btnStart">Start Typing Test</button>
+						<p class="start">Or click the text and start typing</p>
+					</div>
+
+					<textarea
+						id="quoteInput"
+						class="hidden-input"
+						spellcheck="false"
+					></textarea>
+				</div>
+				<button type="submit" id="btnReStart">
+					Restart Test <img src="assets/Undo Icon (1).svg" alt="" />
+				</button>
+			</section>
+			<section class="results" style="display: none">
+				<div class="results-content">
+					<div class="check-icon">✓</div>
+					<h2>Test Complete!</h2>
+					<p class="subtitle">
+						Solid run. Keep pushing to beat your high score.
+					</p>
+
+					<div class="stats">
+						<div class="stat-box">
+							<p>WPM:</p>
+							<h3 id="finalWpm">0</h3>
+						</div>
+						<div class="stat-box">
+							<p>Accuracy:</p>
+							<h3 id="finalAccuracy">0%</h3>
+						</div>
+						<div class="stat-box">
+							<p>Characters</p>
+							<h3 id="finalChars"><span class="green">0</span>/0</h3>
+						</div>
+					</div>
+
+					<button id="btnGoAgain">Go Again ↺</button>
+				</div>
+			</section>
 		</main>
-		<footer>
-			<button type="button" id="btnReStart">
-				Restart Test <img src="assets/Undo Icon (1).svg" alt="" />
-			</button>
-		</footer>
 		<script src="app.js"></script>
 	</body>
 </html>

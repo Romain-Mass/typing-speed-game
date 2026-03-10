@@ -30,9 +30,33 @@ header {
 .spend {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
 	gap: 50px;
+}
+#stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin-left: 10vw;
+}
+.color1 {
+	border: 1px solid;
+	border-color: #717178;
+	color: white;
+	background-color: #121212;
+	padding: 5px 15px;
+	border-radius: 8px;
+}
+.color2 {
+	border: 1px solid;
+	border-color: #4ca6ff;
+	color: #4ca6ff;
+	background-color: #121212;
+	padding: 5px 15px;
+	border-radius: 8px;
 }
 .difficulty {
 	display: flex;
@@ -119,11 +143,11 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 10px;
 	z-index: 3;
 	background: rgba(18, 18, 18, 0.3);
 	backdrop-filter: blur(2px);
 	border-radius: 12px;
+	gap: 10px;
 }
 .records {
 	display: flex;
@@ -183,6 +207,79 @@ header {
 	width: 15%;
 	margin-left: 40vw;
 	gap: 10px;
+}
+
+.typing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.results {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10vw;
+}
+
+.stat-box {
+	border: 1px solid;
+	border-color: #3a3a3a;
+	padding: 5px 40px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#btnGoAgain {
+	background: #ffffff;
+	border: none;
+	border-radius: 8px;
+	padding: 20px 30px;
+	color: #121212;
+	font-weight: 600;
+	margin-top: 5vw;
+	margin-left: 19vw;
+}
+
+p {
+	color: #949497;
+}
+
+h2 {
+	color: white;
+	font-family: "Sora";
+	text-align: center;
+}
+
+.subtitle {
+	text-align: center;
+	margin-bottom: 5vw;
+}
+
+.star1 {
+	position: absolute;
+	top: 20vw;
+	left: 10vw;
+}
+.star2 {
+	position: absolute;
+	bottom: 1vw;
+	right: 10vw;
+}
+.check {
+	position: relative;
+	align-items: center;
+	height: 120px;
+	width: 100%;
+	margin-top: 5vw;
 }
 
 @keyframes blink {
