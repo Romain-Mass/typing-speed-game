@@ -160,6 +160,7 @@ document.getElementById("quoteInput").addEventListener("input", (e) => {
 
 $btnStart.addEventListener("click", () => {
 	document.querySelector(".overlay-start").style.display = "none";
+	document.querySelector(".reStart").style.filter = "none";
 	document.getElementById("quoteInput").focus();
 	document.getElementById("backgroundText").classList.add("active");
 	loadTexte();
